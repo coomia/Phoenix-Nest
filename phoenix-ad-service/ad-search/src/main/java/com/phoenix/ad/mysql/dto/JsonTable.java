@@ -1,4 +1,4 @@
-package com.imooc.ad.mysql.dto;
+package com.phoenix.ad.mysql.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,9 +6,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-/**
- * Created by Qinyi.
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

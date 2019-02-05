@@ -1,6 +1,6 @@
-package com.imooc.ad.mysql.dto;
+package com.phoenix.ad.mysql.dto;
 
-import com.imooc.ad.mysql.constant.OpType;
+import com.phoenix.ad.mysql.constant.OpType;
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -9,9 +9,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 
-/**
- * Created by Qinyi.
- */
 @Data
 public class ParseTemplate {
 

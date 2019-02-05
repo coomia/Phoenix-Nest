@@ -1,4 +1,4 @@
-package com.imooc.ad.mysql.listener;
+package com.phoenix.ad.mysql.listener;
 
 import com.github.shyiko.mysql.binlog.BinaryLogClient;
 import com.github.shyiko.mysql.binlog.event.DeleteRowsEventData;
@@ -8,9 +8,9 @@ import com.github.shyiko.mysql.binlog.event.EventType;
 import com.github.shyiko.mysql.binlog.event.TableMapEventData;
 import com.github.shyiko.mysql.binlog.event.UpdateRowsEventData;
 import com.github.shyiko.mysql.binlog.event.WriteRowsEventData;
-import com.imooc.ad.mysql.TemplateHolder;
-import com.imooc.ad.mysql.dto.BinlogRowData;
-import com.imooc.ad.mysql.dto.TableTemplate;
+import com.phoenix.ad.mysql.TemplateHolder;
+import com.phoenix.ad.mysql.dto.BinlogRowData;
+import com.phoenix.ad.mysql.dto.TableTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +24,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * Created by Qinyi.
- */
 @Slf4j
 @Component
 public class AggregationListener implements BinaryLogClient.EventListener {

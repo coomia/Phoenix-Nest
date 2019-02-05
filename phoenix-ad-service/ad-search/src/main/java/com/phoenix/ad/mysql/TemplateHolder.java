@@ -1,10 +1,10 @@
-package com.imooc.ad.mysql;
+package com.phoenix.ad.mysql;
 
 import com.alibaba.fastjson.JSON;
-import com.imooc.ad.mysql.constant.OpType;
-import com.imooc.ad.mysql.dto.ParseTemplate;
-import com.imooc.ad.mysql.dto.TableTemplate;
-import com.imooc.ad.mysql.dto.Template;
+import com.phoenix.ad.mysql.constant.OpType;
+import com.phoenix.ad.mysql.dto.ParseTemplate;
+import com.phoenix.ad.mysql.dto.TableTemplate;
+import com.phoenix.ad.mysql.dto.Template;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -17,9 +17,6 @@ import java.nio.charset.Charset;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Qinyi.
- */
 @Slf4j
 @Component
 public class TemplateHolder {

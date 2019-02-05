@@ -1,10 +1,8 @@
-package com.imooc.ad.mysql.listener;
+package com.phoenix.ad.mysql.listener;
 
-import com.imooc.ad.mysql.dto.BinlogRowData;
 
-/**
- * Created by Qinyi.
- */
+import com.phoenix.ad.mysql.dto.BinlogRowData;
+
 public interface Ilistener {
 
     void register();

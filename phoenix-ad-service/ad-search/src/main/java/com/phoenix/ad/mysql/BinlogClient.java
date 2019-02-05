@@ -1,7 +1,7 @@
-package com.imooc.ad.mysql;
+package com.phoenix.ad.mysql;
 
 import com.github.shyiko.mysql.binlog.BinaryLogClient;
-import com.imooc.ad.mysql.listener.AggregationListener;
+import com.phoenix.ad.mysql.listener.AggregationListener;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,9 +9,6 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
-/**
- * Created by Qinyi.
- */
 @Slf4j
 @Component
 public class BinlogClient {
