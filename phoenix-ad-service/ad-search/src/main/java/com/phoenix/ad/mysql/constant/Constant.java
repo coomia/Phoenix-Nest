@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Constant {
 
-    private static final String DB_NAME = "imooc_ad_data";
+    private static final String DB_NAME = "phoenix_ad_data";
 
     public static class AD_PLAN_TABLE_INFO {
 
