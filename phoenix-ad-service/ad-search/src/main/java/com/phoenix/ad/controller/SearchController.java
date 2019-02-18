@@ -11,7 +11,6 @@ import com.phoenix.ad.search.vo.SearchResponse;
 import com.phoenix.ad.vo.CommonResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,7 +30,7 @@ public class SearchController {
 
     @Autowired
     public SearchController(RestTemplate restTemplate,
-                            @Qualifier("eureka-client-ad-sponsor") SponsorClient sponsorClient,
+                            SponsorClient sponsorClient,
                             ISearch search) {
         this.restTemplate = restTemplate;
         this.sponsorClient = sponsorClient;
